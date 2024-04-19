@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cronograma de Estudos</title>
+    <style>
+      * {
+        margin: 0px;
+        padding: 0px;
+      }
+
+      body {
+        background: linear-gradient(to left, red, blue, yellow);
+        display: grid;
+        width: 100vw;
+        height: 80vh;
+      }
+
+      header {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 5px;
+      }
+
+      table {
+        width: 300px;
+        height: 100px;
+        background-color: white;
+        border-collapse: collapse;
+      }
+
+      section.top {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 30px;
+        margin-bottom: 5%;
+      }
+
+      section.inferior {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 5%;
+      }
+
+      td {
+        border: 1px solid;
+      }
+
+      th {
+        border: 1px solid;
+      }
+
+      caption {
+        font-size: larger;
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <h1 style="font-family: sans-serif; color: aliceblue; padding: 10px">
+        Plano de estudos
+      </h1>
+      <img
+        src="./imagens/cronograma1.png"
+        alt="Imagem_cronograma1"
+        style="max-width: 300px"
+        srcset=""
+      />
+    </header>
+
+    <main>
+      <section class="top">
+        <table>
+          <caption>
+            Tabela-1
+          </caption>
+          <tr>
+            <th colspan="3"></th>
+          </tr>
+
+          <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+
+          <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+        </table>
+
+        <table>
+          <caption>
+            Tabela-2
+          </caption>
+          <tr>
+            <th rowspan="4"></th>
+          </tr>
+
+          <tr>
+            <td></td>
+            <td></td>
+          </tr>
+
+          <tr>
+            <td></td>
+            <td></td>
+          </tr>
+
+          <tr>
+            <td></td>
+            <td></td>
+          </tr>
+        </table>
+      </section>
+
+      <section class="inferior">
+        <table>
+          <caption>
+            Tabela-3
+          </caption>
+          <tr>
+            <th colspan="5"></th>
+          </tr>
+
+          <tr>
+            <td rowspan="4"></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+
+          <tr>
+            <td></td>
+            <td></td>
+            <td rowspan="2"></td>
+            <td></td>
+          </tr>
+
+          <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+
+          <tr>
+            <td colspan="3"></td>
+            <td></td>
+          </tr>
+        </table>
+      </section>
+    </main>
+  </body>
+</html>

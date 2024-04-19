@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cronograma de Estudos</title>
+    <style>
+      * {
+        margin: 0px;
+        padding: 0px;
+      }
+      body {
+        background: linear-gradient(to left, red, blue, yellow);
+        display: grid;
+        width: 100vw;
+        height: 80vh;
+      }
+
+      header {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 5px;
+        margin-bottom: 5%;
+      }
+
+      th {
+        text-align: center;
+        border: 1px solid;
+      }
+      td {
+        border: 1px solid;
+        text-align: center;
+        border: 1px solid;
+      }
+      caption {
+        font-size: larger;
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <h1 style="font-family: sans-serif; color: aliceblue; padding: 10px">
+        Plano de estudos
+      </h1>
+      <img
+        src="./imagens/cronograma1.png"
+        alt="Imagem_cronograma1"
+        style="max-width: 200px"
+        srcset=""
+      />
+    </header>
+
+    <main>
+      <section style="display: flex; justify-content: center">
+        <table style="background-color: white; border-collapse: collapse">
+          <caption>
+            TABELA-LAYOUT
+          </caption>
+          <tr>
+            <th colspan="2" style="width: 500px; height: 50px">TOPO</th>
+          </tr>
+
+          <tr>
+            <td rowspan="2" style="width: 100px; height: 200px">MENU</td>
+          </tr>
+
+          <tr>
+            <td rowspan="1">CONTEÚDO</td>
+          </tr>
+
+          <tr>
+            <td colspan="2" style="width: 500px; height: 50px">RODAPÉ</td>
+          </tr>
+        </table>
+      </section>
+    </main>
+  </body>
+</html>
